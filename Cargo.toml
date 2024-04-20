@@ -1,0 +1,16 @@
+[package]
+name = "influxdb_renamer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.38"
+clap = { version = "4.5.4", features = ["derive"] }
+influxdb = "0.7.2"
+log = "0.4.21"
+serde = { version = "1.0.198", features = ["derive"] }
+serde_json = "1.0.116"
+simplelog = "0.12.2"
+tokio = { version = "1.37.0", features = ["macros", "rt-multi-thread"] }
